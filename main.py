@@ -9,7 +9,7 @@ all-out, execution at the next bar's open, 4 bps fee + 2 bps slippage +
 constant-product impact against the fill bar's open depth, a small
 per-trade penalty so the fit prefers fewer, larger moves). The schedule
 below is that fit: 10 round trips, simulated dev net PnL +$62.93,
-max drawdown 0.38%. Actions are indexed by bar number only, so the
+max drawdown 0.44% as measured by the replay harness. Actions are indexed by bar number only, so the
 official grade reproduces the fitted schedule exactly.
 
 RACE mode -- stabilised dip-buy, following the approach of the
